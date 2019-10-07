@@ -59,7 +59,7 @@ Basic transrmation is similar i.e. mapping each data frame to country and contin
 
 Here's the plot for overall GDP vs Life Expectancy Vs Child mortality around the world which is calculated by taking the mean values of all 3 variables for each year.
 
-![GIF for GDP Distribution Across Continents[]{label="fig:Overall GDP Vs Child Mortality Vs Life Expectancy}](overall_life_gdp.png)
+![Plot for GDP Distribution Across Continents[]{label="fig:Overall GDP Vs Child Mortality Vs Life Expectancy}](overall_life_gdp.png)
 ###### Figure 6: Overall Life Expectancy Vs GDP per Capita Vs Child Mortality Rate
 
 We can observe that Life Exopectancy goes hand in hand with GDP per capita i.e. they've higher correlation. As expected negative relationship with Child Mortality,
@@ -67,22 +67,48 @@ We can observe that Life Exopectancy goes hand in hand with GDP per capita i.e. 
 Here's the distribution for each continent. 
 The Life Expectancy for Africa value as well as range is relatively less than other three continents while it is relatively high for Europe.
 
-![GIF for GDP Distribution Across Europe[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](europe_life_gdp.png)
-###### Figure 7: GDP per Capita for each country in Europe for each year
+![Plot for GDP Distribution Across Europe[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](europe_life_gdp.png)
+###### Figure 7: Life Expectancy Vs GDP per Capita Vs Child Mortality Rate in Europe for each year
 
 
-![GIF for GDP Distribution Across Asia[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](asia_life_gdp.png)
-###### Figure 8: GDP per Capita for each country in Asia for each year
+![Plot for GDP Distribution Across Asia[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](asia_life_gdp.png)
+###### Figure 8: Life Expectancy Vs GDP per Capita Vs Child Mortality Rate in Asia for each year
 
 
-![GIF for GDP Distribution Across America[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](america_life_gdp.png)
-###### Figure 9: GDP per Capita for each country in America for each year
+![Plot for GDP Distribution Across America[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](america_life_gdp.png)
+###### Figure 9: Life Expectancy Vs GDP per Capita Vs Child Mortality Rate in America for each year
 
 
-![GIF for GDP Distribution Across Africa[]{label="fig:GDP across continents in different time"}](africa_gdp_life.png)
-###### Figure 10: GDP per Capita for each country in Africa for each year
+![Plot for GDP Distribution Across Africa[]{label="fig:GDP across continents in different time"}](africa_gdp_life.png)
+###### Figure 10: Life Expectancy Vs GDP per Capita Vs Child Mortality Rate in Africa for each year
 
 At the same time, Child Mortality rate is very high in Africa as compared to other continents.
 
 The common Trend to be observed is that GDP per Capita and Average Life Expectancy is increasing everywhere wherease Child mortality is decreasing. 
+
+
+## Solution 4:
+
+The two variables that I'm analyzing here are "Co2 Emission" and "GDP Per Capita". These variables are interesting to see in today's scenario where there is a divided opinion on Climate Change and Co2 Emission in each country.
+
+The transformation are similar to previous problems:
+(i) Identify the dataframe for Co2 emission.
+(ii) Map it to Countries and Continent.
+(iii) Merge it with already existing dataframe for GDP per capita.
+(iv) Aggregate it for each continent for each year.
+
+The opinion is that with increase in GDP per capita, continent's overall co2 emission per year should increase as demands for products will increase.
+
+
+![Plot Co2 Emission Vs GDP Per Capita Distribution Across Africa[]{label="fig:Co2 emission vs GDP for Africa"}](africa_c02.png)
+###### Figure 11: Co2 Emission Vs GDP per capita in Africa
+
+![Plot Co2 Emission Vs GDP Per Capita Distribution Across Europe[]{label="fig:Co2 emission vs GDP for"}](europe_c02.png)
+###### Figure 12: Co2 Emission Vs GDP per capita in Europe
+
+![Plot Co2 Emission Vs GDP Per Capita Distribution Across America[]{label="fig:Co2 emission vs GDP for"}](america_co2.png)
+###### Figure 13: Co2 Emission Vs GDP per capita in America
+
+![Plot Co2 Emission Vs GDP Per Capita Distribution Across Asia[]{label="fig:Co2 emission vs GDP for"}](asia_co2.png)
+###### Figure 14: Co2 Emission Vs GDP per capita in Asia
 
