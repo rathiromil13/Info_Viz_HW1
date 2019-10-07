@@ -8,7 +8,9 @@ My score in quiz was 4/13. I think I was being pessimist regarding a lot of ques
 Overall, many questions were interesting. I decided to explore the population distribution across countries and continents and vizualize it. The question was regarding the distribution of population around major continents.
 
 
-<img src="population_countries.jpg" width="400" height ="400"> <img src="crypto_returns_2017.jpeg" width="400" height ="400">
+![Heat map for discrete stocks trading data[]{label="fig:Population for Countries"}](population_countries.png)
+###### Figure 1: Population Distribution Across Countries
+
 Being home to two most populous country, currently Asia was expected to be the country with highest population but on looking at distribution, it shows that majority of population resides only in India and China. Leaving these two countries aside, overall population is considerable low.
 
 
