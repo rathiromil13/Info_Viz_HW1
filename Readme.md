@@ -37,10 +37,14 @@ The basic transformation are similar, mapping GDP data to Country and Continents
 Percentage Change in GDP for similar countries across different year was also calculated and stored in a new column named "pct_gdp_change"
 
 The following GIF was obtained from Distribution of GDP per capita for each country for each year.
+
+
 ![GIF for GDP Distribution Across Countries[]{label="fig:GDP across countries in different time"}](Gdp_per_capita.gif)
 ###### Figure 4: GDP per Capita for each country for each year
 
 and here was can see the distribution of GPD per capita for each continent calculated by getting mean of GDP for given year for countries in that continent.
+
+
 ![GIF for GDP Distribution Across Continents[]{label="fig:GDP across continents in different time"}](gdp_continents.png)
 ###### Figure 5: GDP per Capita for each country for each year
 
@@ -60,18 +64,25 @@ Here's the plot for overall GDP vs Life Expectancy Vs Child mortality around the
 
 We can observe that Life Exopectancy goes hand in hand with GDP per capita i.e. they've higher correlation. As expected negative relationship with Child Mortality,
 
-Here's the distribution for each continent.
+Here's the distribution for each continent. 
+The Life Expectancy for Africa value as well as range is relatively less than other three continents while it is relatively high for Europe.
+
 ![GIF for GDP Distribution Across Europe[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](europe_life_gdp.png)
 ###### Figure 7: GDP per Capita for each country in Europe for each year
+
 
 ![GIF for GDP Distribution Across Asia[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](asia_life_gdp.png)
 ###### Figure 8: GDP per Capita for each country in Asia for each year
 
 
 ![GIF for GDP Distribution Across America[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](america_life_gdp.png)
-###### Figure 9: GDP per Capita for each country in Americafor each year
+###### Figure 9: GDP per Capita for each country in America for each year
+
 
 ![GIF for GDP Distribution Across Africa[]{label="fig:GDP across continents in different time"}](africa_gdp_life.png)
 ###### Figure 10: GDP per Capita for each country in Africa for each year
 
+At the same time, Child Mortality rate is very high in Africa as compared to other continents.
+
+The common Trend to be observed is that GDP per Capita and Average Life Expectancy is increasing everywhere wherease Child mortality is decreasing. 
 
