@@ -43,14 +43,14 @@ The following GIF was obtained from Distribution of GDP per capita for each coun
 ![GIF for GDP Distribution Across Countries[]{label="fig:GDP across countries in different time"}](Gdp_per_capita.gif)
 ###### Figure 4: GDP per Capita for each country for each year
 
-and here was can see the distribution of GPD per capita for each continent calculated by getting mean of GDP for given year for countries in that continent.
+and here we can see the distribution of GPD per capita for each continent calculated by getting mean of GDP for given year for countries in that continent.
 
 
 ![GIF for GDP Distribution Across Continents[]{label="fig:GDP across continents in different time"}](gdp_continents.png)
 ###### Figure 5: GDP per Capita for each country for each year
 
-We can observe that GDP per capita across has been low all the time while it is highest for Europe.
-For America and Asia, they're following each other with time.
+We can observe that GDP per capita across Africa has been low all the time while it is highest for Europe.
+For America and Asia, they're following each other with time, sometimes one taking over the other.
 
 ## Solution 3:
 
@@ -63,7 +63,7 @@ Here's the plot for overall GDP vs Life Expectancy Vs Child mortality around the
 ![Plot for GDP Distribution Across Continents[]{label="fig:Overall GDP Vs Child Mortality Vs Life Expectancy}](overall_life_gdp.png)
 ###### Figure 6: Overall Life Expectancy Vs GDP per Capita Vs Child Mortality Rate
 
-We can observe that Life Exopectancy goes hand in hand with GDP per capita i.e. they've higher correlation. As expected negative relationship with Child Mortality,
+We can observe that Life Expectancy goes hand in hand with GDP per capita i.e. they've higher correlation and as expected shares a negative relationship with Child Mortality,
 
 Here's the distribution for each continent. 
 The Life Expectancy for Africa value as well as range is relatively less than other three continents while it is relatively high for Europe.
