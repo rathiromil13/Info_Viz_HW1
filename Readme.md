@@ -103,12 +103,41 @@ The opinion is that with increase in GDP per capita, continent's overall co2 emi
 ![Plot Co2 Emission Vs GDP Per Capita Distribution Across Africa[]{label="fig:Co2 emission vs GDP for Africa"}](africa_c02.png)
 ###### Figure 11: Co2 Emission Vs GDP per capita in Africa
 
-![Plot Co2 Emission Vs GDP Per Capita Distribution Across Europe[]{label="fig:Co2 emission vs GDP for"}](europe_c02.png)
+In Africa, we can see that Co2 Emission over years is growing at similar rate to GDP per capita but on comparison with other continents, Africa has very high Co2 emission rate as compared to their GDP. This could be due to abundance of forest and thus activities such as deforestation.
+
+![Plot Co2 Emission Vs GDP Per Capita Distribution Across Europe[]{label="fig:Co2 emission vs GDP for"}](europe_co2.png)
 ###### Figure 12: Co2 Emission Vs GDP per capita in Europe
+
+Europe is an exciting case, as we can see it is defying the original trend of increase in Co2 emission with increase in GDP  per capita. In past few years, while thier GDP is increasing, their Co2 emission is decreasing.
 
 ![Plot Co2 Emission Vs GDP Per Capita Distribution Across America[]{label="fig:Co2 emission vs GDP for"}](america_co2.png)
 ###### Figure 13: Co2 Emission Vs GDP per capita in America
 
+In America, we can see a spike around 1970, it shows that during 1960-1980, their Co2 Emission was growing abnormally high, which could be attributed to Cold War with USSR.
+But Overall, it still is increasing, at a slower rate though.
+
 ![Plot Co2 Emission Vs GDP Per Capita Distribution Across Asia[]{label="fig:Co2 emission vs GDP for"}](asia_co2.png)
 ###### Figure 14: Co2 Emission Vs GDP per capita in Asia
+
+In Asia, the growth of Co2 emission is steady with GDP per capita but it turns out to be the highest contributor of Co2 emissions than any other continent.
+
+
+## Solution 5:
+
+For this assignment, I've used a combination of static and interactive plots.
+
+Static Plot:
+
+Advantages of Static Plots over Interactive plots:
+(i) It takes less time to generate a static plot than interactive plot.
+(ii) It is useful to use in scientific or any other literature in print or pdf.
+(iii) It is cheaper to build.
+(iv) Easy to read when number of variables is low, interpretation is not complicated usually.
+
+
+Advantages of Interactive Plots over Static Plots:
+(i) Interactive plots are impressive and visually appealing.
+(ii) Interactive plots gives the ability to user to control what to see on plot and what not.
+(iii) It is very useful when there are multiple variables to observe.
+(iv) Interactive plots makes it easier to understand when there are lots of data point in a variable, for example in the country data above, interactive plot will make it more readable.
 
