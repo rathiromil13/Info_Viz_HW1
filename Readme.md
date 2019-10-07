@@ -7,7 +7,8 @@ My score in quiz was 4/13. I think I was being pessimist regarding a lot of ques
 
 Overall, many questions were interesting. I decided to explore the population distribution across countries and continents and vizualize it. The question was regarding the distribution of population around major continents.
 
-To perform this task,I mapped Population Data with Country and Continent Data. Then, some column names were adjusted to make sure they're meaningful and not too long.
+To perform this task,I merged Population Data with Country and Continent Data. Then, some column names were adjusted to make sure they're meaningful and not too long.
+The merging was "inner merge" which will automatically handle values which are incosistent.
 Aggregation was done by taking the mean population for current year for both countries as well as continents.
 
 ![Plot for Polulation Distribution Across Continents[]{label="fig:Population for Continents"}](population_continent.png)
@@ -33,7 +34,7 @@ The corresponding plot shows some interesting results
 
 For this problem, I selected GDP per Capita Data adjusted in US Inflated price so that the scale remains same for all countries.
 
-The basic transformation are similar, mapping GDP data to Country and Continents data so as to get their proper names.
+The basic transformation are similar, performing inner merge GDP data to Country and Continents data so as to get their proper names.
 Percentage Change in GDP for similar countries across different year was also calculated and stored in a new column named "pct_gdp_change"
 
 The following GIF was obtained from Distribution of GDP per capita for each country for each year.
@@ -55,7 +56,7 @@ For America and Asia, they're following each other with time.
 
 In this part, we'd to vizualize GDP Per Capita, Life Expectancy and Child Mortality.
 
-Basic transrmation is similar i.e. mapping each data frame to country and continent and then merging them using time, country and continent as the key.
+Basic transrmation is similar i.e. performing inner each data frame to country and continent and then merging them using time, country and continent as the key.
 
 Here's the plot for overall GDP vs Life Expectancy Vs Child mortality around the world which is calculated by taking the mean values of all 3 variables for each year.
 
@@ -93,8 +94,8 @@ The two variables that I'm analyzing here are "Co2 Emission" and "GDP Per Capita
 
 The transformation are similar to previous problems:
 (i) Identify the dataframe for Co2 emission.
-(ii) Map it to Countries and Continent.
-(iii) Merge it with already existing dataframe for GDP per capita.
+(ii) Merge (Inner) it to Countries and Continent.
+(iii) Merge (Inner) it with already existing dataframe for GDP per capita.
 (iv) Aggregate it for each continent for each year.
 
 The opinion is that with increase in GDP per capita, continent's overall co2 emission per year should increase as demands for products will increase.
