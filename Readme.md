@@ -38,4 +38,4 @@ Percentage Change in GDP for similar countries across different year was also ca
 
 The following GIF was obtained from Distribution of GDP per capita for each country for each year.
 ![GIF for Polulation Distribution Across Countries[]{label="fig:GDP across countries in different time"}](Gdp_per_capita.gif)
-###### Figure 2: Population Distribution Across Countries
+###### Figure 4: GDP per Capita for each country for each year
