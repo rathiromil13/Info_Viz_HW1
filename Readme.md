@@ -37,5 +37,41 @@ The basic transformation are similar, mapping GDP data to Country and Continents
 Percentage Change in GDP for similar countries across different year was also calculated and stored in a new column named "pct_gdp_change"
 
 The following GIF was obtained from Distribution of GDP per capita for each country for each year.
-![GIF for Polulation Distribution Across Countries[]{label="fig:GDP across countries in different time"}](Gdp_per_capita.gif)
+![GIF for GDP Distribution Across Countries[]{label="fig:GDP across countries in different time"}](Gdp_per_capita.gif)
 ###### Figure 4: GDP per Capita for each country for each year
+
+and here was can see the distribution of GPD per capita for each continent calculated by getting mean of GDP for given year for countries in that continent.
+![GIF for GDP Distribution Across Continents[]{label="fig:GDP across continents in different time"}](gdp_continents.png)
+###### Figure 5: GDP per Capita for each country for each year
+
+We can observe that GDP per capita across has been low all the time while it is highest for Europe.
+For America and Asia, they're following each other with time.
+
+## Solution 3:
+
+In this part, we'd to vizualize GDP Per Capita, Life Expectancy and Child Mortality.
+
+Basic transrmation is similar i.e. mapping each data frame to country and continent and then merging them using time, country and continent as the key.
+
+Here's the plot for overall GDP vs Life Expectancy Vs Child mortality around the world which is calculated by taking the mean values of all 3 variables for each year.
+
+![GIF for GDP Distribution Across Continents[]{label="fig:Overall GDP Vs Child Mortality Vs Life Expectancy}](overall_life_gdp.png)
+###### Figure 6: Overall Life Expectancy Vs GDP per Capita Vs Child Mortality Rate
+
+We can observe that Life Exopectancy goes hand in hand with GDP per capita i.e. they've higher correlation. As expected negative relationship with Child Mortality,
+
+Here's the distribution for each continent.
+![GIF for GDP Distribution Across Europe[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](europe_life_gdp.png)
+###### Figure 7: GDP per Capita for each country in Europe for each year
+
+![GIF for GDP Distribution Across Asia[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](asia_life_gdp.png)
+###### Figure 8: GDP per Capita for each country in Asia for each year
+
+
+![GIF for GDP Distribution Across America[]{label="fig:GDP Vs Child Mortality Vs Life Expectancy"}](america_life_gdp.png)
+###### Figure 9: GDP per Capita for each country in Americafor each year
+
+![GIF for GDP Distribution Across Africa[]{label="fig:GDP across continents in different time"}](africa_gdp_life.png)
+###### Figure 10: GDP per Capita for each country in Africa for each year
+
+
