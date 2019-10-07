@@ -141,3 +141,7 @@ Advantages of Interactive Plots over Static Plots:
 (iii) It is very useful when there are multiple variables to observe.
 (iv) Interactive plots makes it easier to understand when there are lots of data point in a variable, for example in the country data above, interactive plot will make it more readable.
 
+
+## Note:
+
+The code can be found in repository- HW1.ipynb
