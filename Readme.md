@@ -12,7 +12,7 @@ Aggregation was done by taking the mean population for:
 (i) Present Year for each country
 (ii) For all year for each continents
 
-![Plot for Polulation Distribution Across Continents[]{label="fig:Population for Continents"}](population_continents.png)
+![Plot for Polulation Distribution Across Continents[]{label="fig:Population for Continents"}](population_continent.png)
 ###### Figure 1: Population Distribution Across Continents
 
 It clearly shows Asia has the highest population (~ around 4BN) among all continents. Now let's us look at distribution across countries
